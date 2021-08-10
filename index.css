@@ -1,0 +1,46 @@
+#external {
+    color: yellow;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#h2tag {
+    text-transform: uppercase;
+}
+
+.list{
+    background-color: #aed19d;
+}
+
+/* [class*="too"] {
+    border: 1px solid rgb(157, 176, 209);
+} */
+
+ol [class="tools"] {
+    border: 2px solid rgb(157, 176, 209);
+}
+
+img + ul {
+    list-style-type: none;
+}
+
+section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+ul > li {
+    letter-spacing: 10px;
+}
+
+h4 ~ p {
+    text-align: center;
+}
